@@ -41,11 +41,18 @@ body {
 
 .mainTitle {
     text-align: center;
-    font-size: 4rem;
-    padding-left: 0;
-    padding-right: 0;
+    font-weight: bold;
+    color: #fffcf2;
+    -webkit-text-stroke: 1px #E95420;
+    text-shadow : 2px 2px 1px #000;
+    font-size: 5rem;
     padding-top: 25rem;
-    padding-bottom: 19rem;
+    padding-bottom: 17.8rem;
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 0;
 }
 
 h1 {
@@ -230,7 +237,8 @@ label {
         background-color : #E95420;
         display: block;
         margin: 0 auto;
-        margin-top : 2rem; 
+        margin-top : 2rem;
+        margin-bottom: 3rem;
     }
 
     .btn:hover {
@@ -244,6 +252,13 @@ label {
         padding-bottom: 2rem;
 
     }
+    
+    .mainTitle {
+ 
+    font-size: 3.5rem;
+    padding-top: 20rem;
+    padding-bottom: 18.8rem;
+}
 
 }
 @media(max-width: 990px) {
@@ -273,7 +288,7 @@ footer {
     height: 3rem;
     margin: 1rem 3rem;
     border-radius: 100%;
-    background-color: #293241;
+    background-color: #403d39;
 }
 
 .footerSocialIcons ul li:hover {
@@ -286,7 +301,7 @@ footer {
 }
 
 .footerSocialIcons ul li a:hover {
-    color: #E95420;
+    color: #403d39;
 }
 
 .footerMenu ul li {

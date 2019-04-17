@@ -112,7 +112,7 @@ if (count($_POST) > 0) {
         <?php if (!empty($_GET['presentation'])) { ?>
             <div class="container-fluid">
                 <div class="presentation">
-                    <h4 class="mainTitle">Maçonnerie Ocordo</h4>
+                    <h4 class="mainTitle animated zoomInDown">Maçonnerie Ocordo</h4>
                 </div>
             </div>
 
@@ -132,7 +132,7 @@ if (count($_POST) > 0) {
         <?php } elseif (!empty($_GET['contact'])) { ?>
             <div class="container">
                 <?= $xml->page[3]->content; ?>
-            </div>
+       
 
 
             <?php
@@ -177,10 +177,10 @@ if (count($_POST) > 0) {
             if (count($_POST) > 0 && count($formErrors) == 0) {
                 ?>
                 <div>
-                    <p class="formSuccess">Vos données ont bien été envoyées et votre fichier a bien été transmis.</p>
+                    <p class="formSuccess">Votre demande de devis a bien été envoyée.</p>
                 </div>
             <?php } ?>
-
+     </div>
         <?php }
         ?>
         <footer>
